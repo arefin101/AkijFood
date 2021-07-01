@@ -16,7 +16,7 @@ namespace AkijFood.Controllers
     {
         ColdDrinkRepository coldDrinkRepository = new ColdDrinkRepository();
 
-        [Route("API00"), HttpGet]
+        [Route(""), HttpGet]
         public IActionResult GetAll()
         {
             var coldDrinks = coldDrinkRepository.GetAll();
